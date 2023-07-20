@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "impossible",
+      "setup": "",
+      "run": "python3 grades.py",
+      "input": "-3",
+      "output": "impossible!\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "grade3",
+      "setup": "",
+      "run": "python3 grades.py",
+      "input": "48",
+      "output": "3\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "grade5",
+      "setup": "",
+      "run": "python3 grades.py",
+      "input": "100",
+      "output": "5\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "incredible",
+      "setup": "",
+      "run": "python3 grades.py",
+      "input": "101",
+      "output": "incredible!\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
