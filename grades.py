@@ -3,17 +3,17 @@ def main():
     if points < 0:
         print('impossible!')
     elif points <= 49:
-        print(f'Grade: 1')
+        print(1)
     elif points <= 59:
-        print(f'Grade: 2')
+        print(2)
     elif points <= 69:
-        print(f'Grade: 3')
+        print(2)
     elif points <= 79:
-        print(f'Grade: 4')
+        print(4)
     elif points <= 89:
-        print(f'Grade: 5')
+        print(5)
     elif points <= 100:
-        print(f'Grade: 6')
+        print(6)
     elif points > 100:
         print('incredible!')
 
