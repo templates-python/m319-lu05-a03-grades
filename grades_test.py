@@ -10,7 +10,7 @@ def test_impossible(capsys, monkeypatch):
 
 
 def test_failed(capsys, monkeypatch):
-    inputs = iter([49])
+    inputs = iter([40])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr()

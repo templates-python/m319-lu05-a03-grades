@@ -3,17 +3,17 @@ def main():
     if points < 0:
         print('impossible!')
     elif points <= 49:
-        print(1)
+        print('failed')
     elif points <= 59:
-        print(2)
+        print(1)
     elif points <= 69:
         print(2)
     elif points <= 79:
-        print(4)
+        print(2)
     elif points <= 89:
-        print(5)
+        print(4)
     elif points <= 100:
-        print(6)
+        print(5)
     elif points > 100:
         print('incredible!')
 
