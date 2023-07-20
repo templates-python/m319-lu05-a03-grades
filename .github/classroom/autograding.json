@@ -5,7 +5,7 @@
       "setup": "",
       "run": "python3 grades.py",
       "input": "-3",
-      "output": "impossible!\n",
+      "output": "impossible!",
       "comparison": "included",
       "timeout": 1,
       "points": 1
