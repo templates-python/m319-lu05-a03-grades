@@ -15,7 +15,7 @@
       "setup": "",
       "run": "python3 grades.py",
       "input": "48",
-      "output": "3\n",
+      "output": "Grade: 3\n",
       "comparison": "included",
       "timeout": 1,
       "points": 1
@@ -25,7 +25,7 @@
       "setup": "",
       "run": "python3 grades.py",
       "input": "100",
-      "output": "5\n",
+      "output": "Grade: 5\n",
       "comparison": "included",
       "timeout": 1,
       "points": 1
