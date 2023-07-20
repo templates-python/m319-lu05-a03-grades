@@ -2,42 +2,39 @@
   "tests": [
     {
       "name": "impossible",
-      "setup": "",
-      "run": "python3 grades.py",
-      "input": "-3",
-      "output": "impossible!\n",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -k \"test_impossible\"",
+      "input": "",
+      "output": "",
       "comparison": "included",
-      "timeout": 1,
+      "timeout": 10,
       "points": 1
-    },
-    {
-      "name": "grade3",
-      "setup": "",
-      "run": "python3 grades.py",
-      "input": "48",
-      "output": "3\n",
+    },{
+      "name": "failed",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -k \"test_failed\"",
+      "input": "",
+      "output": "",
       "comparison": "included",
-      "timeout": 1,
+      "timeout": 10,
       "points": 1
-    },
-    {
-      "name": "grade5",
-      "setup": "",
-      "run": "python3 grades.py",
-      "input": "100",
-      "output": "5\n",
+    },{
+      "name": "grade 4",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -k \"test_grade4\"",
+      "input": "",
+      "output": "",
       "comparison": "included",
-      "timeout": 1,
+      "timeout": 10,
       "points": 1
-    },
-    {
+    },{
       "name": "incredible",
-      "setup": "",
-      "run": "python3 grades.py",
-      "input": "101",
-      "output": "incredible!\n",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -k \"test_incredible\"",
+      "input": "",
+      "output": "",
       "comparison": "included",
-      "timeout": 1,
+      "timeout": 10,
       "points": 1
     }
   ]
