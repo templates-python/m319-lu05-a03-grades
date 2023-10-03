@@ -2,7 +2,7 @@ from grades import main
 
 
 def test_impossible(capsys, monkeypatch):
-    inputs = iter([-1])
+    inputs = iter(['-1'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr()
@@ -10,7 +10,7 @@ def test_impossible(capsys, monkeypatch):
 
 
 def test_failed(capsys, monkeypatch):
-    inputs = iter([49])
+    inputs = iter(['49'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr()
@@ -18,7 +18,7 @@ def test_failed(capsys, monkeypatch):
 
 
 def test_grade4(capsys, monkeypatch):
-    inputs = iter([80])
+    inputs = iter(['80'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr()
@@ -26,7 +26,7 @@ def test_grade4(capsys, monkeypatch):
 
 
 def test_incredible(capsys, monkeypatch):
-    inputs = iter([102])
+    inputs = iter(['102'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr()
