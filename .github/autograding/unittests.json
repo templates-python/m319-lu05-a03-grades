@@ -1,0 +1,26 @@
+[
+  {
+    "name": "impossible",
+    "function": "impossible",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "failed",
+    "function": "failed",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "grade 4",
+    "function": "grade 4",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "incredible",
+    "function": "incredible",
+    "timeout": 10,
+    "points": 1
+  }
+]
