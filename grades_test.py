@@ -18,7 +18,7 @@ def test_failed(capsys, monkeypatch):
 
 
 def test_grade4(capsys, monkeypatch):
-    inputs = iter([79])
+    inputs = iter([80])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr()
