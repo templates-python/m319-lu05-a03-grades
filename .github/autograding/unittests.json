@@ -1,13 +1,13 @@
 [
   {
-    "name": "impossible",
-    "function": "impossible",
+    "name": "test_impossible",
+    "function": "test_impossible",
     "timeout": 10,
     "points": 1
   },
   {
-    "name": "failed",
-    "function": "failed",
+    "name": "test_failed",
+    "function": "test_failed",
     "timeout": 10,
     "points": 1
   },
@@ -18,8 +18,8 @@
     "points": 1
   },
   {
-    "name": "incredible",
-    "function": "incredible",
+    "name": "test_incredible",
+    "function": "test_incredible",
     "timeout": 10,
     "points": 1
   }
