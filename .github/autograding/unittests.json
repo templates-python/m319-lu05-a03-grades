@@ -12,8 +12,8 @@
     "points": 1
   },
   {
-    "name": "grade 4",
-    "function": "grade 4",
+    "name": "test_grade4",
+    "function": "test_grade4",
     "timeout": 10,
     "points": 1
   },
